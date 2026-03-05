@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oac-labs | Observability as Code Kit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        code { font-family: 'Fira Code', monospace; }
+        .oak-gradient { background: linear-gradient(135deg, #1a2e1a 0%, #0a0f0a 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="oak-gradient text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-6xl font-extrabold mb-4 tracking-tight">oac-labs</h1>
+            <p class="text-xl text-gray-400 mb-8 italic">"Solid as an oak, flexible as code."</p>
+            <div class="inline-block bg-green-900/30 border border-green-500/50 rounded-lg p-4 mb-8">
+                <code class="text-green-400 text-lg">go install github.com/oac-labs/oacli@latest</code>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-16 px-6">
+        
+        <div class="grid md:grid-cols-3 gap-12">
+            
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-3xl mb-4">🌳</div>
+                <h2 class="text-2xl font-bold mb-3">oacore</h2>
+                <p class="text-gray-600">The heartwood. A high-performance Go library for transforming DSL definitions into validated JSON schemas for monitoring platforms.</p>
+                <a href="https://github.com/oac-labs/oacore" class="mt-6 inline-block text-green-700 font-semibold hover:underline">View Source →</a>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-3xl mb-4">⚒️</div>
+                <h2 class="text-2xl font-bold mb-3">oacli</h2>
+                <h3 class="text-sm text-gray-400 uppercase tracking-widest mb-2">(oack)</h3>
+                <p class="text-gray-600">The forest ranger. A powerful CLI tool for managing CRUD operations against Grafana, Sumo Logic, and Wavefront APIs.</p>
+                <a href="https://github.com/oac-labs/oacli" class="mt-6 inline-block text-green-700 font-semibold hover:underline">Get Started →</a>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="text-3xl mb-4">🌰</div>
+                <h2 class="text-24 font-bold mb-3">oacorn</h2>
+                <p class="text-gray-600">The seeds. A modular ecosystem of pre-defined Jsonnet templates to build complex dashboards and alerts with ease.</p>
+                <a href="https://github.com/oac-labs/oacorn" class="mt-6 inline-block text-green-700 font-semibold hover:underline">Explore Modules →</a>
+            </div>
+
+        </div>
+
+        <section class="mt-24 text-center border-t border-gray-200 pt-16">
+            <h2 class="text-3xl font-bold mb-6">Built for Engineers</h2>
+            <div class="max-w-2xl mx-auto text-gray-600 text-lg leading-relaxed">
+                We believe observability should be defined, not clicked. By leveraging <strong>Jsonnet</strong> for flexibility and <strong>Go</strong> for reliability, <strong>oac-labs</strong> provides a robust toolkit for modern Site Reliability Engineering.
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-100 py-12 px-6 mt-12 text-center text-gray-500 text-sm border-t border-gray-200">
+        <p>&copy; 2026 oac-labs. Open Source under MIT License.</p>
+        <p class="mt-2 italic font-serif text-xs">"In every acorn, there is an oak."</p>
+    </footer>
+
+</body>
+</html>
