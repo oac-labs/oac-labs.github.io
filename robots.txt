@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /legal.html
+Disallow: /privacy.html
+Disallow: /legal_info.png
+
+Sitemap: https://oac-labs.com/sitemap.xml
