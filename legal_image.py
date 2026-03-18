@@ -42,10 +42,10 @@ def create_legal_image(text, filename="legal_info.png"):
 
 # Hier deine Daten eintragen
 impressum_text = """oac-labs
-P. Bschl
-Drfstr. 51
-02999 Lhs
+Peter Büschel
+Dorfstr. 51
+02999 Lohsa
 
-E-Mail: info [at] oac-labs.com"""
+E-Mail: info[at]oac-labs.com"""
 
 create_legal_image(impressum_text)

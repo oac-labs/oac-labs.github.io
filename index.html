@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oac-labs | Coming Soon</title>
+    <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70"><circle cx="35" cy="35" r="34" fill="%23fcfdfc"/><path d="M34 3 24 8v7l-13 8v12l9 6-3 2v7l9 5-6 4 14 8Z" fill="%23243d24"/><path d="M36 3 46 8v7l13 8v12l-9 6 3 2v7l-9 5 6 4-14 8Z" fill="%231e301e"/><g stroke="%23fff" stroke-width="2" fill="none"><line x1="35" y1="3" x2="35" y2="67"/><line x1="6" y1="19" x2="35" y2="35"/><line x1="64" y1="19" x2="35" y2="35"/></g></svg>'>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Fira+Code&display=swap" rel="stylesheet">
     <style>
@@ -14,9 +15,25 @@
     </style>
 </head>
 <body class="oak-gradient text-white min-h-screen flex flex-col items-center justify-center px-6">
-
     <main class="text-center max-w-2xl">
-        <div class="text-6xl mb-6">🌳</div>
+        <div class="flex justify-center">
+          <svg viewBox="0 0 70 70" class="w-32 h-32 mx-auto mb-8" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="35" cy="35" r="34" fill="#fcfdfc"/>
+            <!-- Leaf halves -->
+            <path d="M34 3 24 8v7l-13 8v12l9 6-3 2v7l9 5-6 4 14 8Z"
+                  fill="#243d24"/>
+            <path d="M36 3 46 8v7l13 8v12l-9 6 3 2v7l-9 5 6 4-14 8Z"
+                  fill="#1e301e"/>
+            <!-- Perfect symmetric lines -->
+            <g stroke="#fff" stroke-width="2"
+               stroke-linecap="butt"
+               fill="none">
+              <line x1="35" y1="3" x2="35" y2="67"/>
+              <line x1="6" y1="19" x2="35" y2="35"/>
+              <line x1="64" y1="19" x2="35" y2="35"/>
+            </g>
+          </svg>
+        </div>
         
         <h1 class="text-5xl md:text-7xl font-extrabold mb-4 tracking-tighter">
             oac-labs
@@ -48,7 +65,7 @@
         <div class="flex justify-center space-x-6 text-xs uppercase tracking-widest text-gray-500">
             <a href="https://github.com/oac-labs" class="hover:text-green-400 transition">GitHub</a>
             <span class="text-gray-800">|</span>
-            <a href="/legal.html" class="hover:text-green-400 transition">Legal Notice</a>
+            <a href="/legal.html" class="hover:text-green-400 transition">Legal Notice (Impressum)</a>
             <span class="text-gray-800">|</span>
             <a href="/privacy.html" class="hover:text-green-400 transition">Privacy</a>
         </div>
